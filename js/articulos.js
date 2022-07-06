@@ -25,7 +25,9 @@ $(document).ready(function () {
       switch(category){
         case 'Mobilelegends':
              
-          if(response[artId - 1].category !== "018"){
+          if(response[artId - 1].code == "018"){
+
+            console.log()
   
           main.innerHTML = `
           <div class="card">
@@ -430,10 +432,6 @@ $(document).ready(function () {
                     <div class="col-xxl-3 col-md-5 colordiv"><span>Dificultad: </span><h4 >${response[artId - 1].info4}</h4></div>
                   </div>
 
-                  
-                 
-                
-                     
                      
                   <h4 class="card-title">${response[artId - 1].subtitle1}</h4>
                   <p class="card-text">${response[artId - 1].content}</p><br>

@@ -1,6 +1,8 @@
+
+
 $(document).ready(function () {
 
-
+  
     
 
     let res = document.querySelector('#articles-group');

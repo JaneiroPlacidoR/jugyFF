@@ -548,7 +548,30 @@ font-family: 'Fjalla One', sans-serif;
 
 }
 
-$('.tosearchbtn').on('click',function(){
-                window.location.href = `resultados.html`
-                
-            });
+<section class="main col-7">
+                <h2 id="title-page">Descargas</h2>
+                <div class="row row-cols-1 row-cols-xl-2 g-4" id="articles-group">
+                    <!--Aqui van los articulos dinamicos-->
+                </div>
+               
+
+            </section>
+
+                             <form  action="https://formsubmit.co/youtuber@jugyff.com" method="POST" class="was-validated">
+
+                                        <div class="mb-3">
+                                            <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                            <input type="email" class="form-control is-invalid" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                                          </div>
+
+                                        <div class="mb-3">
+                                          <label for="validationTextarea" class="form-label">Textarea</label>
+                                          <textarea class="form-control is-invalid" id="validationTextarea" placeholder="Required example textarea" name="message" required></textarea>
+                                          <div class="invalid-feedback">
+                                            Por favor escriba su mensaje para JugyFF aquí.
+                                          </div>
+                                        </div>
+                                      
+                                        <input type="hidden" name="_next" value="http://jugyff.com/">
+                                        <input type="hidden" name="_captcha" value="false">
+                                      </form>
